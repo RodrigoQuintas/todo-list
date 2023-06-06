@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@todo-list/ui": ["libs/ui/src/index.ts"],
-      "@todo-list/ui/server": ["libs/ui/src/server.ts"]
+      "@todo-list/shared-ui": ["libs/shared-ui/src/index.ts"],
+      "@todo-list/shared-ui/server": ["libs/shared-ui/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
